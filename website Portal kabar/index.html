@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>habarrin.com | Kabar Terbaru Kalimantan Selatan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER & NAVIGASI -->
+    <header>
+        <div class="container header-wrapper">
+            <div class="logo">
+                <h1>habar<span>rin.com</span></h1>
+            </div>
+            
+            <div class="header-right">
+                <!-- Bar Pencarian Minimalis -->
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Cari kabar Banua...">
+                    <button id="searchBtn">🔍</button>
+                </div>
+                
+                <!-- Tombol Mode Gelap -->
+                <button id="darkModeToggle" class="theme-btn" aria-label="Ubah Tema">🌙 Mode Gelap</button>
+            </div>
+        </div>
+        
+        <!-- Navigasi Kategori Berita -->
+        <nav class="sub-nav">
+            <div class="container">
+                <ul>
+                    <li><a href="index.html" class="active">Utama</a></li>
+                    <li><a href="#">Banjarmasin</a></li>
+                    <li><a href="#">Banjarbaru</a></li>
+                    <li><a href="#">Martapura</a></li>
+                    <li><a href="#">Hulu Sungai</a></li>
+                    <li><a href="#">Pesisir</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- KONTEN UTAMA -->
+    <main class="container">
+        <!-- Berita Utama / Feature Banner -->
+        <section class="hero-news" id="heroSection">
+            <div class="hero-image">
+                <div class="placeholder-img bg-martapura">Foto Pasar Terapung Lok Baintan</div>
+            </div>
+            <div class="hero-content">
+                <span class="category">Ekonomi & Bisnis</span>
+                <h2>Pasar Terapung Lok Baintan Masuk Daftar Warisan Budaya Global, Wisatawan Meningkat</h2>
+                <p>Pemerintah Provinsi Kalimantan Selatan terus menggenjot fasilitas pendukung demi kenyamanan para wisatawan domestik maupun mancanegara...</p>
+                <div class="hero-footer">
+                    <span class="date">31 Mei 2026</span>
+                    <a href="baca-berita.html" class="read-more-btn">Baca Selengkapnya →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Grid Berita Terbaru -->
+        <section class="latest-news">
+            <h3 class="section-title" id="gridTitle">Kabar Terkini Banua</h3>
+            
+            <div class="news-grid" id="newsGrid">
+                <!-- Kartu Berita 1 -->
+                <article class="news-card" data-title="perbaikan jalan trans-kalimantan liang anggang">
+                    <div class="card-img-placeholder">Foto Infrastruktur Jalan</div>
+                    <div class="card-content">
+                        <span class="category">Infrastruktur</span>
+                        <h4>Perbaikan Jalan Trans-Kalimantan di Liang Anggang Target Selesai Bulan Depan</h4>
+                        <span class="date">31 Mei 2026</span>
+                    </div>
+                </article>
+
+                <!-- Kartu Berita 2 -->
+                <article class="news-card" data-title="festival budaya banjar siring menara pandang">
+                    <div class="card-img-placeholder">Foto Event Budaya</div>
+                    <div class="card-content">
+                        <span class="category">Budaya</span>
+                        <h4>Festival Budaya Banjar Siap Digelar di Siring Menara Pandang</h4>
+                        <span class="date">30 Mei 2026</span>
+                    </div>
+                </article>
+
+                <!-- Kartu Berita 3 -->
+                <article class="news-card" data-title="bmkg syamsudin noor cuaca hujan angin kencang">
+                    <div class="card-img-placeholder">Foto Cuaca BMKG</div>
+                    <div class="card-content">
+                        <span class="category">Lingkungan</span>
+                        <h4>BMKG Syamsudin Noor Imbau Warga Waspada Potensi Hujan Disertai Angin Kencang</h4>
+                        <span class="date">30 Mei 2026</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 habarrin.com - Portal Kabar Kalimantan Selatan. Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+
+    <!-- Script fungsionalitas -->
+    <script src="script.js"></script>
+</body>
+</html>
